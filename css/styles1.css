@@ -75,8 +75,17 @@ nav{
 .imagenHeader{
     width: 50px;
     height: 50px;
+
+    transition: width height 1s;
     
 }
+
+.imagenHeader:hover{
+    width: 55px;
+    height: 55px;
+}
+
+
 
 .header2 h1{
     padding: 5px;
@@ -118,13 +127,25 @@ nav{
 
 .nav2 a{
     background-color: transparent;
+    position: relative;
     color: white;
     text-decoration: none;
     margin-left: 10px;
     margin-right: 10px;
     
+    transition: 1s padding ease-out, 1s margin ease-out, 1s border ease-out;
+    
+    
+    
 }
 
+.nav2 a:hover{
+    padding: 10px;
+  margin: -10px 5px;
+  border: 2px solid #ddd;
+  
+    
+}
 
 
 /*======================================================*/
