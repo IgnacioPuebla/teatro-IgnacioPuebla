@@ -195,7 +195,8 @@ nav{
 /*===================================index===================================*/
 /*contenedores de actividaddes*/
 .actividadesMain{
-    background-color: rgb(113, 82, 82);
+    color: white;
+    background-color: black;
     display: flex;
 
 
@@ -205,9 +206,10 @@ nav{
 }
 
 .linkActividad{
+    border: none;
     height: 150px;
     width: 150px;
-    background-color: rgb(4, 226, 152);
+    background-color: black;
 }
 
 
@@ -561,6 +563,37 @@ nav{
 
 
 /*======================================================*/
+
+
+.actividadesMain{
+    margin: 1rem;
+
+}
+
+.linkActividad{
+    height: 150px;
+    width: 150px;
+}
+
+
+.linkActividad img{
+    height: 3rem;
+    width: 3rem;
+}
+
+
+.titulosActividad{
+    margin: 40px 40px 0px 40px ;
+
+}
+
+.textoActividad{
+    display:none;
+}
+
+
+
+
 
 /*===================================plays===================================*/
 
